@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>排行榜</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="rank.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Poppins:weight@100;200;300;400;500;600;700;800&display=swap");
+    </style>
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div id="head">
+            <h1>排行榜</h1>
+        </div>
+            <div  id="content">
+                <div class="al">
+                    <div class="container d-flex justify-content-center align-items-center">
+             
+                        <div class="card">
+           
+                         <div class="upper">
+           
+                           <img src="pro.png" class="img-fluid">
+                           
+                         </div>
+           
+                         <div class="user text-center">
+           
+                           <div class="profile">
+           
+                             <img src="m1.png" class="rounded-circle" width="80">
+                             
+                           </div>
+           
+                         </div>
+           
+           
+                         <div class="mt-5 text-center">
+           
+                           <h4 class="mb-0" >明明</h4>
+           
+                           <a href="#aa"><button class="btn btn-primary btn-sm follow">我的排名</button></a>
+           
+           
+                           <div class="d-flex justify-content-between align-items-center mt-4 px-4">
+           
+                             <div class="stats">
+                               <h6 class="mb-0">比上個月多</h6>
+                               <span>200點</span>
+           
+                             </div>
+           
+           
+                             <div class="stats">
+                               <h6 class="mb-0">差前一名</h6>
+                               <span>500點</span>
+           
+                             </div>
+           
+           
+                             <div class="stats">
+                               <h6 class="mb-0">排名</h6>
+                               <span>4</span>
+           
+                             </div>
+                             
+                           </div>
+                           
+                         </div>
+                          
+                        </div>
+           
+                      </div>
+
+                <div class="alert alert-success alert-dismissible " role="alert">
+                    累積比上個月多<strong>200</strong>點，距離前一名還差<strong>500</strong>點，再接再厲!
+                    <button type="button" class="btn-close" data-dismiss="alert"  >
+                    </button>
+                  </div>
+
+                <div class="tableFixHead">
+                    <table >
+                      <thead>
+                        <tr>
+                          <th>名次</th>
+                          <th>暱稱</th>
+                          <th>碳制郎點數</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>1</td>
+                          <td>嘉嘉</td>
+                          <td>200000</td>
+                        </tr>
+                        <tr>
+                           <td>2</td>
+                          <td>賢賢</td>
+                          <td>180000</td>
+                        </tr>
+                        <tr>
+                           <td>3</td>
+                          <td id="aa">媛媛</td>
+                          <td>160000</td>
+                        </tr>
+                        <tr>
+                           <td>4</td>
+                          <td >明明</td>
+                          <td>159500</td>
+                        </tr>
+                        <tr>
+                           <td>5</td>
+                          <td >欣欣</td>
+                          <td>140000</td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                           <td >辰辰</td>
+                           <td>139000</td>
+                         </tr>
+                         <tr>
+                            <td>7</td>
+                           <td>絲絲</td>
+                           <td>135000</td>
+                         </tr>
+                         <tr>
+                            <td>8</td>
+                            <td>快快</td>
+                            <td>130000</td>
+                          </tr>
+                          <tr>
+                             <td>9</td>
+                            <td>慢慢</td>
+                            <td>129000</td>
+                          </tr>
+                          <tr>
+                             <td>10</td>
+                            <td>真真</td>
+                            <td>120000</td>
+                          </tr>
+                          <tr>
+                             <td>11</td>
+                            <td >暖暖</td>
+                            <td>119500</td>
+                          </tr>
+                          <tr>
+                             <td>12</td>
+                            <td>宜宜</td>
+                            <td>118000</td>
+                          </tr>
+                          <tr>
+                              <td>13</td>
+                             <td >軍軍</td>
+                             <td>112000</td>
+                           </tr>
+                           <tr>
+                              <td>14</td>
+                             <td>菜菜</td>
+                             <td>110000</td>
+                           </tr>
+                           <td>15</td>
+                          <td>瑜瑜</td>
+                          <td>109000</td>
+                        
+                        <tr>
+                           <td>16</td>
+                          <td>心心</td>
+                          <td>108500</td>
+                        </tr>
+                        <tr>
+                           <td>17</td>
+                          <td>文文</td>
+                          <td>105000</td>
+                        </tr>
+                        <tr>
+                           <td>18</td>
+                          <td >范范</td>
+                          <td>100000</td>
+                        </tr>
+                        <tr>
+                           <td>19</td>
+                          <td>佩佩</td>
+                          <td>99000</td>
+                        </tr>
+                        <tr>
+                            <td>20</td>
+                           <td >玉玉</td>
+                           <td>98000</td>
+                         </tr>
+                      </tbody>
+                    </table>
+                  </div></div>
+        </div></div>
+
+        <nav class="navbar navbar-expand-lg bg-light" id="footer">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">台灣碳制郎</a>
+
+                <ul class="nav justify-content-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <div class="fa-3x"><i class="fa-solid fa-feather-pointed"></i></div>
+                            點數集點
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <div class="fa-3x"><i class="fa-solid fa-ranking-star"></i></div>
+                            排行榜
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <div class="fa-3x"><i class="fa-solid fa-user"></i></div>
+                            會員中心
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <div class="fa-3x"><i class="fa-sharp fa-solid fa-book"></i></div>
+                            消費紀錄
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <div class="fa-3x"><i class="fa-sharp fa-solid fa-bag-shopping"></i></div>
+                            點數兌換
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <div class="fa-3x"><i class="fa-solid fa-circle-question"></i></div>
+                            問題回報
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+        </nav>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <script></script>
+    <script src="https://kit.fontawesome.com/fbfcc130e9.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
