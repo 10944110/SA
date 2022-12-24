@@ -1,0 +1,49 @@
+body{
+    font-family: "Comic Sans MS"
+    }
+    .mb-3{
+        margin: auto;
+        width: 90; 
+    }
+    .under{
+        width: 90%;
+        margin: auto;
+        margin-top: 10px;
+        border-style: solid;
+        border-color: white;
+        background-color: rgba(107, 194, 135, 0.137);
+        border-radius: 5%;
+    }
+
+    .headtitle{
+        position: relative;
+        padding: 18px 40px 18px 20px;
+        width: 100%;
+        font-size: 1.1rem;
+        color:rgb(92, 92, 92);
+    }
+    .pointnews{
+        position: relative;
+        width: 100%;
+        font-size: 1rem;  
+        color: rgb(102, 100, 100);
+        }
+    .insidenews{
+        font-size: 1rem;  
+        padding: 0 20px 0 0px;
+        width: 100%;
+        color:rgb(92, 92, 92);
+     
+    }
+    .accordion-button:focus {
+         z-index: 3; 
+         outline: 0; 
+         box-shadow:none;
+    }
+    .accordion-button:not(.collapsed) {
+        color: rgb(102, 100, 100);
+        background-color:rgba(240, 242, 245, 0.699);
+        box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color);
+    }
+   
+ 

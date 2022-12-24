@@ -1,0 +1,22 @@
+body{   
+    font-family: "Comic Sans MS"
+}
+ 
+header{
+    margin-top: 150px;
+    width: 100%;
+}
+.fixed-top2 {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+.card{
+    border-radius: 2%;
+}
+.mb-3{
+    margin: auto;
+    width: 90%; 
+}
