@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: "Comic Sans MS";
+    letter-spacing: 1.85px;
+}
+.container-fluid{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+#head{
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #AAB8AB;
+}
+#content{
+    min-height: calc(100vh - 12rem);
+    background-color: white;
+}
+#footer{
+    height: 7rem;
+    background-color: #AAB8AB;
+    margin: auto;
+}
+.navbar {
+    padding: .5rem 1rem; 
+}
+.navbar-brand{
+    text-align: center;
+}
+.navbar>.container-fluid{
+    justify-content: space-around;
+}
+.nav-link{
+    color: rgba(0, 0, 0, 0.591);
+}
+.nav-link:hover{
+    background-color: #AAB8AB;
+    color: rgb(254, 254, 254);
+}
+.nav-link:active{
+    background-color: #AAB8AB;
+    color: rgb(254, 254, 254);
+}
+.nav-link:focus{
+    background-color: #AAB8AB;
+    color: rgb(254, 254, 254);
+}
+
+
+.tableFixHead {
+    
+    overflow-y: auto;
+    height: 250px;
+    border:1px solid  #009879;
+    margin-top: 8px;
+    }
+    .tableFixHead thead th {
+    position: sticky;
+    top: 0;
+    }
+    table {
+    border-collapse: collapse;
+    width: 100%;
+    text-align:center;
+    }
+    th,
+    td {
+    padding: 8px 16px;
+    }
+    th {
+    background: #c8e6c9;
+    }
+
+    
+.card{
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    width: 380px;
+    border: none;
+    border-radius: 15px;
+    padding: 4px;
+    background-color: #fff;
+    position: relative;
+    height: 370px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+   }
+   
+   .upper{
+   
+    height: 100px;
+   
+   }
+   
+   .upper img{
+   
+    width: 99%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+   
+   }
+   
+   .user{
+    position: relative;
+   }
+   
+   .profile img{
+   
+    
+    height: 80px;
+    width: 80px;
+    margin-top:6px;
+   
+   
+   }
+   
+   .profile{
+   
+    position: absolute;
+    top:-50px;
+    left: 38%;
+    height: 90px;
+    width: 90px;
+    background:linear-gradient(-225deg, #20E2D7 0%, #F9FEA5 100%) ;
+    border-radius: 50%;
+   
+   }
+   
+   .follow{
+   
+    border-radius: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 35px;
+   }
+   
+   .stats span{
+   
+    font-size: 29px;
+   }
